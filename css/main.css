@@ -8,19 +8,21 @@ html {
 }
 
 body {
+	height: 100%;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	display: flex;
   	justify-content: center;
-  	align-items: center;
+	align-items: center;
 }
 
 .container{
 	max-width: 1200px;
-	margin: 0 auto;
+	width: 90%;
 	display: flex;
   	justify-content: center;
-  	align-items: center;
+	align-items: center;
+    flex-flow: row wrap;
 }
 
 h1,
@@ -52,37 +54,33 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
-	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
+	width: 100%;
 	display: flex;
   	justify-content: center;
-  	align-items: center;
+	align-items: center;
+	flex-flow: column wrap;
 }
-
 header h1 {
-	float: left;
+	width: 100%;
 	margin: 0;
 	padding: 38px 0;
+	border-bottom: 3px solid #77a466;
 }
+
 header h1 span {
 	color: #77a466;
 }
-
 header nav {
-	float: right;
-	padding: 46px 0;
+	width: 100%;
 }
-header nav ul {
-	margin: 0;
-	padding: 0;
-}
+
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.88em;
-	padding: 0 10px;
-	display: inline;
+	padding: 15px;
+	list-style-type: none;
+
 }
 header nav ul li a{
 	text-decoration: none;
@@ -92,16 +90,18 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
+	width: 100%;
 	margin: 0 auto;
 	clear: both;
 	display: flex;
   	justify-content: center;
-  	align-items: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 
 .main-image {
+	width: 100%;
 	height: auto;
-	float: left;
 }
 .main-image img {
 	width: 100%;
@@ -110,7 +110,6 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
-	float: left;
 }
 .main-title h3 {
 	text-align: left;
@@ -126,9 +125,8 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
-	float: left;
 	border-top: 1px solid #eee;
 }
 
@@ -182,4 +180,14 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 0.88em;
+}
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+ 
+}
+ 
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+ 
 }
