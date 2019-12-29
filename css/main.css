@@ -32,15 +32,19 @@ h4 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
 h1 {
 	font-size: 1.88em;
 }
+
 h2 {
     font-size: 1.5em;
 }
+
 h3 {
 	font-size: 1.13em;
 }
+
 h4 {
 	font-size: 0.75em;
 }
@@ -51,7 +55,6 @@ p {
     padding: 0 30px;
 }
 
-/*The widths are in a percentage!*/
 header {
 	width: 100%;
 	text-align: center;
@@ -60,6 +63,7 @@ header {
 	align-items: center;
 	flex-flow: row wrap;
 }
+
 header h1 {
 	width: 100%;
 	margin: 0;
@@ -94,12 +98,10 @@ header nav ul li a{
 	color:#77a466;
 }
 
-/*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
 	width: 100%;
 	margin: 0 auto;
-	clear: both;
 	display: flex;
   	justify-content: center;
 	align-items: center;
@@ -110,6 +112,7 @@ header nav ul li a{
 	width: 100%;
 	height: auto;
 }
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -118,10 +121,12 @@ header nav ul li a{
 .main-title {
 	height: auto;
 }
+
 .main-title h3 {
 	text-align: left;
 	color: #77a466;
 }
+
 .main-title p {
 	padding: 0;
 	font-size: 1em;
@@ -157,13 +162,10 @@ header nav ul li a{
 	padding: 0;
 }
 
-/*The widths are in a percentage!*/
 footer {
 	
 	width: 100%;
 	border-top: 3px solid #eee;
-
-	clear: both;
 	text-align: center;
 	display: flex;
   	justify-content: center;
